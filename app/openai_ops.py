@@ -596,7 +596,7 @@ def generate_proofreading_result(
             "role": "user",
             "content": "Please proofread my written work, which starts after '!!!' "
             "I'll provide a text input which might be in a non-English language. "
-            "Ensure that the proofread result is in the same language. "
+            "Ensure that the proofread result is in the same language. If there are errors correct it, but never translate it."
             "Even if you consider annotating the proofread text, kindly withhold it. "
             f"Here is the input !!!\n{original_text}",
         },
